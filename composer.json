@@ -1,0 +1,22 @@
+{
+  "require-dev": {
+    "friendsofphp/php-cs-fixer": "2.1.3"
+  },
+  "require": {
+    "cboden/ratchet": "^0.4",
+    "ratchet/pawl": "^0.3.4"
+  },
+  "replace": {
+    "symfony/http-foundation": "*",
+    "guzzlehttp/psr7": "*",
+    "symfony/routing": "*"
+  },
+  "scripts": {
+    "post-install-cmd": [
+      "sh clean-vendor-code.sh"
+    ],
+    "post-update-cmd": [
+      "sh clean-vendor-code.sh"
+    ]
+  }
+}

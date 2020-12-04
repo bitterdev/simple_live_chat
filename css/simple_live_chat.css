@@ -1,0 +1,180 @@
+.slc-chat-popup-container .slc-chat-container, .slc-bubble {
+    -webkit-box-shadow: 3px 3px 5px 0 rgba(0,0,0,0.1);
+    -moz-box-shadow: 3px 3px 5px 0 rgba(0,0,0,0.1);
+    box-shadow: 3px 3px 5px 0 rgba(0,0,0,0.1);
+}
+
+.slc-chat-popup-container * {
+    box-sizing: unset;
+}
+
+.slc-message-container {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.slc-message-container .slc-messages-container {
+    overflow-y: scroll;
+    clear: both;
+    padding: 10px;
+    border: 1px solid transparent;
+    border-bottom: 0;
+}
+
+.slc-message-container .slc-message {
+    position: relative;
+    display: block;
+    max-width: 60%;
+    width: auto;
+    margin-bottom: 15px;
+    clear: both;
+    float: left;
+}
+
+@media only screen and (max-width: 600px) {
+    .slc-message-container .slc-message {
+        max-width: 100%;
+    }
+}
+
+.slc-message-container .slc-message .slc-message-body {
+    margin: 0;
+    padding: 5px 10px 5px 12px;
+    border-radius: 5px;
+    overflow-wrap: break-word;
+}
+
+.slc-message-container .slc-message .slc-message-time {
+    font-size: 0.9em;
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.slc-message-container .slc-message .slc-profile-picture {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid transparent;
+    display: block;
+}
+
+.slc-message-container .slc-message.slc-incoming-message .slc-profile-picture {
+    left: 0;
+}
+
+.slc-message-container .slc-message.slc-outgoing-message .slc-profile-picture {
+    right: 0;
+}
+
+.slc-message-container .slc-message.slc-incoming-message {
+    padding-left: 40px;
+}
+
+.slc-message-container .slc-message.slc-outgoing-message {
+    float: right;
+    padding-right: 40px;
+}
+
+.slc-message-container .slc-message.slc-outgoing-message .slc-message-time {
+    float: right;
+}
+
+.slc-message-container .slc-actions-container {
+    position: relative;
+    border: 1px solid transparent;
+}
+
+.slc-message-container .slc-actions-container .slc-message-text {
+    all: unset;
+    outline: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    border-radius: 0;
+    border: none;
+    padding: 10px;
+    width: calc(100% - 45px);
+    height: 18px;
+    line-height: 18px;
+}
+
+.slc-message-container .slc-actions-container .slc-send-message-button {
+    all: unset;
+    font-size: 1em;
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 18px;
+    height: 18px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.slc-message-container .slc-actions-container .slc-message-text.disabled,
+.slc-message-container .slc-actions-container .slc-send-message-button.disabled {
+    cursor: no-drop;
+}
+
+.slc-message-container .clear-fix {
+    clear: both;
+}
+
+/* admin mode styles*/
+.slc-message-container.slc-admin-mode .slc-sidebar-container {
+    display: block;
+    float: left;
+    width: 250px;
+    height: 100%;
+    border-left: 1px solid transparent;
+    border-top: 1px solid transparent;
+    border-bottom: 1px solid transparent;
+    overflow-y: auto;
+}
+
+.slc-message-container.slc-admin-mode .slc-sidebar-container .slc-visitor {
+    padding: 10px;
+    cursor: pointer;
+    position: relative;
+}
+
+.slc-message-container.slc-admin-mode .slc-sidebar-container .slc-visitor .slc-visitor-name {
+    width: calc(100% - 60px);
+}
+
+.slc-message-container.slc-admin-mode .slc-sidebar-container .slc-visitor .slc-message-time {
+    width: calc(100% - 60px);
+    font-size: 0.9em;
+    margin-top: 5px;
+}
+
+.slc-message-container.slc-admin-mode .slc-sidebar-container .slc-visitor.active .slc-unread-messages-counter,
+.slc-message-container.slc-admin-mode .slc-sidebar-container .slc-visitor .slc-unread-messages-counter.slc-hidden,
+.slc-chat-popup-container.slc-hidden {
+    display: none;
+}
+
+.slc-message-container.slc-admin-mode .slc-sidebar-container .slc-visitor .slc-unread-messages-counter {
+    position: absolute;
+    right: 10px;
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    border-radius: 50%;
+    text-align: center;
+    top: 50%;
+    margin-top: -12.5px;
+    font-size: 0.9em;
+}
+
+.slc-message-container.slc-admin-mode .slc-chat-container {
+    display: block;
+    float: left;
+    width: calc(100% - 250px);
+}

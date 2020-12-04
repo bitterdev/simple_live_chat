@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.concrete5.org/doctrine-xml/0.5" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.concrete5.org/doctrine-xml/0.5 http://concrete5.github.io/doctrine-xml/doctrine-xml-0.5.xsd">
+    <table name="btSimpleLiveChat">
+        <field name="bID" type="integer">
+            <unsigned/>
+            <key/>
+        </field>
+        <field name="fontSize" type="smallint">
+            <default value="14"/>
+            <notnull/>
+        </field>
+        <field name="chatHeight" type="smallint">
+            <default value="350"/>
+            <notnull/>
+        </field>
+        <field name="textColor" type="string" size="32">
+            <default value="#646464"/>
+            <notnull/>
+        </field>
+        <field name="buttonColor" type="string" size="32">
+            <default value="#646464"/>
+            <notnull/>
+        </field>
+        <field name="borderColor" type="string" size="32">
+            <default value="#ececec"/>
+            <notnull/>
+        </field>
+        <field name="backgroundColor" type="string" size="32">
+            <default value="#ffffff"/>
+            <notnull/>
+        </field>
+        <field name="timeColor" type="string" size="32">
+            <default value="#747474"/>
+            <notnull/>
+        </field>
+        <field name="incomingMessageBubbleBackgroundColor" type="string" size="32">
+            <default value="#75ca2a"/>
+            <notnull/>
+        </field>
+        <field name="incomingMessageBubbleTextColor" type="string" size="32">
+            <default value="#ffffff"/>
+            <notnull/>
+        </field>
+        <field name="outgoingMessageBubbleBackgroundColor" type="string" size="32">
+            <default value="#ebebeb"/>
+            <notnull/>
+        </field>
+        <field name="outgoingMessageBubbleTextColor" type="string" size="32">
+            <default value="#646464"/>
+            <notnull/>
+        </field>
+        <field name="buttonHelpText" type="string" size="255">
+            <default value="Click here or press enter to send the message."/>
+            <notnull/>
+        </field>
+        <field name="messagePlaceholder" type="string" size="255">
+            <default value="Enter your message here..."/>
+            <notnull/>
+        </field>
+    </table>
+</schema>

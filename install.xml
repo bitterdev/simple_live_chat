@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<concrete5-cif version="1.0">
+    <blocktypes>
+        <blocktype handle="simple_live_chat" package="simple_live_chat"/>
+    </blocktypes>
+    <singlepages>
+        <page name="Simple Live Chat" path="/dashboard/simple_live_chat" filename="/dashboard/simple_live_chat.php"
+              package="simple_live_chat"/>
+        <page name="Settings" path="/dashboard/simple_live_chat/settings"
+              filename="/dashboard/simple_live_chat/settings.php" package="simple_live_chat"/>
+        <page name="Chat" path="/dashboard/simple_live_chat/chat"
+              filename="/dashboard/simple_live_chat/chat.php" package="simple_live_chat"/>
+    </singlepages>
+    <permissionkeys>
+        <permissionkey handle="control_server" name="Control Server" package="simple_live_chat"
+                       description="Ability to control the live chat server." category="admin">
+            <access>
+                <group name="Administrators" description=""/>
+            </access>
+        </permissionkey>
+    </permissionkeys>
+    <jobs>
+        <job handle="start_server" package="simple_live_chat"/>
+        <job handle="stop_server" package="simple_live_chat"/>
+    </jobs>
+    <jobsets>
+        <jobset name="Simple Live Chat" package="">
+            <job handle="start_server"/>
+            <job handle="stop_server"/>
+        </jobset>
+    </jobsets>
+</concrete5-cif>
