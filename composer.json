@@ -1,4 +1,11 @@
 {
+  "name": "bitter/simple_live_chat",
+  "type": "concrete5-package",
+  "autoload": {
+    "psr-4": {
+      "Bitter\\SimpleLiveChat\\": "src/Bitter/SimpleLiveChat"
+    }
+  },
   "require-dev": {
     "friendsofphp/php-cs-fixer": "2.1.3"
   },
