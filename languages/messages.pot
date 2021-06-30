@@ -1,0 +1,520 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: simple_live_chat 1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2021-06-30T10:18:32+00:00\n"
+"PO-Revision-Date: 2021-06-30T10:18:33+00:00\n"
+"Language: en_US\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#: packages/simple_live_chat/install.xml:8
+#: packages/simple_live_chat/controller.php:38
+#: packages/simple_live_chat/blocks/simple_live_chat/controller.php:41
+msgid "Simple Live Chat"
+msgstr ""
+
+#: packages/simple_live_chat/install.xml:10
+msgid "Settings"
+msgstr ""
+
+#: packages/simple_live_chat/install.xml:12
+msgid "Chat"
+msgstr ""
+
+#: packages/simple_live_chat/install.xml:16
+msgctxt "PermissionKeyName"
+msgid "Control Server"
+msgstr ""
+
+#: packages/simple_live_chat/install.xml:16
+msgctxt "PermissionKeyDescription"
+msgid "Ability to control the live chat server."
+msgstr ""
+
+#: packages/simple_live_chat/install.xml:27
+msgctxt "JobSetName"
+msgid "Simple Live Chat"
+msgstr ""
+
+#: packages/simple_live_chat/controller.php:33
+msgid "Feature-rich self-hosted live chat solution that fully complies with GDPR and doesn't require any 3rd party services."
+msgstr ""
+
+#: packages/simple_live_chat/blocks/simple_live_chat/controller.php:36
+msgid "Chat window for users."
+msgstr ""
+
+#: packages/simple_live_chat/blocks/simple_live_chat/controller.php:83
+#: packages/simple_live_chat/single_pages/dashboard/simple_live_chat/chat.php:42
+#: packages/simple_live_chat/src/Bitter/SimpleLiveChat/Config.php:371
+msgid "Click here or press enter to send the message."
+msgstr ""
+
+#: packages/simple_live_chat/blocks/simple_live_chat/controller.php:84
+#: packages/simple_live_chat/single_pages/dashboard/simple_live_chat/chat.php:43
+#: packages/simple_live_chat/src/Bitter/SimpleLiveChat/Config.php:381
+msgid "Enter your message here..."
+msgstr ""
+
+#: packages/simple_live_chat/blocks/simple_live_chat/edit.php:60
+msgid "General Style and Settings"
+msgstr ""
+
+#: packages/simple_live_chat/blocks/simple_live_chat/edit.php:64
+#: packages/simple_live_chat/blocks/simple_live_chat/edit.php:144
+#: packages/simple_live_chat/blocks/simple_live_chat/edit.php:166
+#: packages/simple_live_chat/single_pages/dashboard/simple_live_chat/settings.php:172
+#: packages/simple_live_chat/single_pages/dashboard/simple_live_chat/settings.php:216
+#: packages/simple_live_chat/single_pages/dashboard/simple_live_chat/settings.php:301
+#: packages/simple_live_chat/single_pages/dashboard/simple_live_chat/settings.php:323
+msgid "Text Color"
+msgstr ""
+
+#: packages/simple_live_chat/blocks/simple_live_chat/edit.php:72
+#: packages/simple_live_chat/single_pages/dashboard/simple_live_chat/settings.php:224
+msgid "Button Color"
+msgstr ""
+
+#: packages/simple_live_chat/blocks/simple_live_chat/edit.php:80
+#: packages/simple_live_chat/single_pages/dashboard/simple_live_chat/settings.php:232
+msgid "Border Color"
+msgstr ""
+
+#: packages/simple_live_chat/blocks/simple_live_chat/edit.php:88
+#: packages/simple_live_chat/blocks/simple_live_chat/edit.php:152
+#: packages/simple_live_chat/blocks/simple_live_chat/edit.php:174
+#: packages/simple_live_chat/single_pages/dashboard/simple_live_chat/settings.php:164
+#: packages/simple_live_chat/single_pages/dashboard/simple_live_chat/settings.php:240
+#: packages/simple_live_chat/single_pages/dashboard/simple_live_chat/settings.php:309
+#: packages/simple_live_chat/single_pages/dashboard/simple_live_chat/settings.php:331
+msgid "Background Color"
+msgstr ""
+
+#: packages/simple_live_chat/blocks/simple_live_chat/edit.php:96
+#: packages/simple_live_chat/single_pages/dashboard/simple_live_chat/settings.php:248
+msgid "Time Color"
+msgstr ""
+
+#: packages/simple_live_chat/blocks/simple_live_chat/edit.php:104
+#: packages/simple_live_chat/single_pages/dashboard/simple_live_chat/settings.php:256
+msgid "Base Font Size"
+msgstr ""
+
+#: packages/simple_live_chat/blocks/simple_live_chat/edit.php:110
+#: packages/simple_live_chat/blocks/simple_live_chat/edit.php:122
+#: packages/simple_live_chat/single_pages/dashboard/simple_live_chat/settings.php:146
+#: packages/simple_live_chat/single_pages/dashboard/simple_live_chat/settings.php:158
+#: packages/simple_live_chat/single_pages/dashboard/simple_live_chat/settings.php:262
+#: packages/simple_live_chat/single_pages/dashboard/simple_live_chat/settings.php:279
+msgid "px"
+msgstr ""
+
+#: packages/simple_live_chat/blocks/simple_live_chat/edit.php:116
+#: packages/simple_live_chat/single_pages/dashboard/simple_live_chat/settings.php:273
+msgid "Chat Height"
+msgstr ""
+
+#: packages/simple_live_chat/blocks/simple_live_chat/edit.php:128
+#: packages/simple_live_chat/single_pages/dashboard/simple_live_chat/settings.php:285
+msgid "Button Help Text"
+msgstr ""
+
+#: packages/simple_live_chat/blocks/simple_live_chat/edit.php:133
+#: packages/simple_live_chat/single_pages/dashboard/simple_live_chat/settings.php:290
+msgid "Message Placeholder Text"
+msgstr ""
+
+#: packages/simple_live_chat/blocks/simple_live_chat/edit.php:140
+#: packages/simple_live_chat/single_pages/dashboard/simple_live_chat/settings.php:297
+msgid "Incoming Message Bubble Style"
+msgstr ""
+
+#: packages/simple_live_chat/blocks/simple_live_chat/edit.php:162
+#: packages/simple_live_chat/single_pages/dashboard/simple_live_chat/settings.php:319
+msgid "Outgoing Message Bubble Style"
+msgstr ""
+
+#: packages/simple_live_chat/mail/offline_message.php:15
+msgid "Offline message"
+msgstr ""
+
+#: packages/simple_live_chat/mail/offline_message.php:22
+#: packages/simple_live_chat/elements/dashboard/did_you_know.php:105
+#: packages/simple_live_chat/elements/dashboard/did_you_know.php:135
+#: packages/simple_live_chat/elements/dashboard/help.php:32
+#: packages/simple_live_chat/elements/dashboard/reminder.php:35
+#: packages/simple_live_chat/src/Bitter/SimpleLiveChat/Config.php:402
+msgid "here"
+msgstr ""
+
+#: packages/simple_live_chat/mail/offline_message.php:18
+#, php-format
+msgid "A visitor has sent you a message. Click %s to reply."
+msgstr ""
+
+#: packages/simple_live_chat/single_pages/dashboard/simple_live_chat/settings.php:82
+msgid "General"
+msgstr ""
+
+#: packages/simple_live_chat/single_pages/dashboard/simple_live_chat/settings.php:86
+msgid "Port"
+msgstr ""
+
+#: packages/simple_live_chat/single_pages/dashboard/simple_live_chat/settings.php:96
+msgid "Welcome Message"
+msgstr ""
+
+#: packages/simple_live_chat/single_pages/dashboard/simple_live_chat/settings.php:101
+msgid "Offline Message"
+msgstr ""
+
+#: packages/simple_live_chat/single_pages/dashboard/simple_live_chat/settings.php:106
+msgid "Notification Mail Address"
+msgstr ""
+
+#: packages/simple_live_chat/single_pages/dashboard/simple_live_chat/settings.php:111
+#: packages/simple_live_chat/elements/simple_live_chat.php:94
+#: packages/simple_live_chat/elements/simple_live_chat.php:106
+msgid "Profile Picture"
+msgstr ""
+
+#: packages/simple_live_chat/single_pages/dashboard/simple_live_chat/settings.php:112
+msgid "Please select file..."
+msgstr ""
+
+#: packages/simple_live_chat/single_pages/dashboard/simple_live_chat/settings.php:118
+msgid "Chat Bubble"
+msgstr ""
+
+#: packages/simple_live_chat/single_pages/dashboard/simple_live_chat/settings.php:124
+msgid "Display chat bubble"
+msgstr ""
+
+#: packages/simple_live_chat/single_pages/dashboard/simple_live_chat/settings.php:130
+msgid "Alignment"
+msgstr ""
+
+#: packages/simple_live_chat/single_pages/dashboard/simple_live_chat/settings.php:135
+msgid "Icon"
+msgstr ""
+
+#: packages/simple_live_chat/single_pages/dashboard/simple_live_chat/settings.php:140
+msgid "Border Radius"
+msgstr ""
+
+#: packages/simple_live_chat/single_pages/dashboard/simple_live_chat/settings.php:152
+msgid "Size"
+msgstr ""
+
+#: packages/simple_live_chat/single_pages/dashboard/simple_live_chat/settings.php:180
+msgid "Background Color (Active State)"
+msgstr ""
+
+#: packages/simple_live_chat/single_pages/dashboard/simple_live_chat/settings.php:188
+msgid "Text Color (Active State)"
+msgstr ""
+
+#: packages/simple_live_chat/single_pages/dashboard/simple_live_chat/settings.php:198
+msgid "Use chat popup"
+msgstr ""
+
+#: packages/simple_live_chat/single_pages/dashboard/simple_live_chat/settings.php:204
+msgid "Chat Page"
+msgstr ""
+
+#: packages/simple_live_chat/single_pages/dashboard/simple_live_chat/settings.php:212
+msgid "Chat Popup Style and Settings"
+msgstr ""
+
+#: packages/simple_live_chat/single_pages/dashboard/simple_live_chat/settings.php:268
+msgid "Font Family"
+msgstr ""
+
+#: packages/simple_live_chat/single_pages/dashboard/simple_live_chat/settings.php:345
+msgid "Save"
+msgstr ""
+
+#: packages/simple_live_chat/elements/dashboard/did_you_know.php:96
+msgid "Did you know?"
+msgstr ""
+
+#: packages/simple_live_chat/elements/dashboard/did_you_know.php:102
+#, php-format
+msgid "I have many other add-ons to power up your site. Maybe the following add-on sounds interesting to you? If you want to see a full list with all of my add-ons, please click %s. As an existing customer you will get 10%% discount on your next purchase."
+msgstr ""
+
+#: packages/simple_live_chat/elements/dashboard/did_you_know.php:120
+msgid "Details"
+msgstr ""
+
+#: packages/simple_live_chat/elements/dashboard/did_you_know.php:135
+#, php-format
+msgid "Click %s to hide."
+msgstr ""
+
+#: packages/simple_live_chat/elements/dashboard/help.php:28
+#, php-format
+msgid "If you need support please click %s."
+msgstr ""
+
+#: packages/simple_live_chat/elements/dashboard/help.php:44
+msgid "Support"
+msgstr ""
+
+#: packages/simple_live_chat/elements/dashboard/install_post.php:24
+msgid "Thank You for purchasing this add-on!"
+msgstr ""
+
+#: packages/simple_live_chat/elements/dashboard/install_post.php:28
+msgid "Follow me on Twitter and Facebook to get the latest news and notifications about updates, new add-ons/themes and special offers."
+msgstr ""
+
+#: packages/simple_live_chat/elements/dashboard/install_post.php:37
+msgid "Follow @fabian_bitter"
+msgstr ""
+
+#: packages/simple_live_chat/elements/dashboard/license_check.php:36
+msgid "You have not connected your site to the Marketplace. To benefit from updates, connect your site to the Marketplace and assign the purchased licenses."
+msgstr ""
+
+#: packages/simple_live_chat/elements/dashboard/reminder.php:32
+#, php-format
+msgid "Rate this add-on on concrete5.org and as a thank-you gift you can choose another add-on of mine up to $35. This offer may only be claimed once. Click %s to rate now."
+msgstr ""
+
+#: packages/simple_live_chat/elements/simple_live_chat.php:69
+msgid "Push Notifications"
+msgstr ""
+
+#: packages/simple_live_chat/elements/simple_live_chat.php:65
+#, php-format
+msgid "If you want to have push notification support you need to purchase the %s add-on."
+msgstr ""
+
+#: packages/simple_live_chat/elements/simple_live_chat.php:78
+msgid "Visitor"
+msgstr ""
+
+#: packages/simple_live_chat/elements/simple_live_chat.php:128
+#: packages/simple_live_chat/src/Bitter/SimpleLiveChat/Config.php:405
+msgid "Loading chat history..."
+msgstr ""
+
+#: packages/simple_live_chat/jobs/start_server.php:27
+msgid "Start Server"
+msgstr ""
+
+#: packages/simple_live_chat/jobs/start_server.php:32
+#: packages/simple_live_chat/src/Bitter/SimpleLiveChat/Console/Command/StartServer.php:26
+msgid "Starts the live chat server."
+msgstr ""
+
+#: packages/simple_live_chat/jobs/start_server.php:74
+#: packages/simple_live_chat/src/Bitter/SimpleLiveChat/Controller/Api.php:89
+#: packages/simple_live_chat/src/Bitter/SimpleLiveChat/Console/Command/StartServer.php:41
+msgid "The server has been started successfully."
+msgstr ""
+
+#: packages/simple_live_chat/jobs/start_server.php:76
+#: packages/simple_live_chat/jobs/stop_server.php:75
+#: packages/simple_live_chat/src/Bitter/SimpleLiveChat/Controller/Api.php:84
+#: packages/simple_live_chat/src/Bitter/SimpleLiveChat/Controller/Api.php:105
+msgid "You don't have the permission to control the server."
+msgstr ""
+
+#: packages/simple_live_chat/jobs/stop_server.php:26
+msgid "Stop Server"
+msgstr ""
+
+#: packages/simple_live_chat/jobs/stop_server.php:31
+#: packages/simple_live_chat/src/Bitter/SimpleLiveChat/Console/Command/StopServer.php:26
+msgid "Stops the live chat server."
+msgstr ""
+
+#: packages/simple_live_chat/jobs/stop_server.php:73
+#: packages/simple_live_chat/src/Bitter/SimpleLiveChat/Controller/Api.php:110
+#: packages/simple_live_chat/src/Bitter/SimpleLiveChat/Console/Command/StopServer.php:41
+msgid "The server has been stopped successfully."
+msgstr ""
+
+#: packages/simple_live_chat/controllers/single_page/dashboard/simple_live_chat/settings.php:47
+msgid "Top Left"
+msgstr ""
+
+#: packages/simple_live_chat/controllers/single_page/dashboard/simple_live_chat/settings.php:48
+msgid "Top Right"
+msgstr ""
+
+#: packages/simple_live_chat/controllers/single_page/dashboard/simple_live_chat/settings.php:49
+msgid "Bottom Left"
+msgstr ""
+
+#: packages/simple_live_chat/controllers/single_page/dashboard/simple_live_chat/settings.php:50
+msgid "Bottom Right"
+msgstr ""
+
+#: packages/simple_live_chat/controllers/single_page/dashboard/simple_live_chat/settings.php:54
+msgid "Commenting (Outline)"
+msgstr ""
+
+#: packages/simple_live_chat/controllers/single_page/dashboard/simple_live_chat/settings.php:55
+msgid "Commenting"
+msgstr ""
+
+#: packages/simple_live_chat/controllers/single_page/dashboard/simple_live_chat/settings.php:56
+msgid "Comments (Outline)"
+msgstr ""
+
+#: packages/simple_live_chat/controllers/single_page/dashboard/simple_live_chat/settings.php:57
+msgid "Comments"
+msgstr ""
+
+#: packages/simple_live_chat/controllers/single_page/dashboard/simple_live_chat/settings.php:58
+msgid "Comment (Outline)"
+msgstr ""
+
+#: packages/simple_live_chat/controllers/single_page/dashboard/simple_live_chat/settings.php:59
+msgid "Comment"
+msgstr ""
+
+#: packages/simple_live_chat/controllers/single_page/dashboard/simple_live_chat/settings.php:128
+msgid "The settings has been updated successfully."
+msgstr ""
+
+#: packages/simple_live_chat/controllers/dialog/support/create_ticket.php:56
+msgid "Ticket Created"
+msgstr ""
+
+#: packages/simple_live_chat/controllers/dialog/support/create_ticket.php:57
+msgid "Your ticket has been successfully created."
+msgstr ""
+
+#: packages/simple_live_chat/views/dialogs/support/create_ticket.php:22
+msgid "Bug"
+msgstr ""
+
+#: packages/simple_live_chat/views/dialogs/support/create_ticket.php:23
+msgid "Enhancement"
+msgstr ""
+
+#: packages/simple_live_chat/views/dialogs/support/create_ticket.php:24
+msgid "Proposal"
+msgstr ""
+
+#: packages/simple_live_chat/views/dialogs/support/create_ticket.php:25
+msgid "Task"
+msgstr ""
+
+#: packages/simple_live_chat/views/dialogs/support/create_ticket.php:29
+msgid "Trivial"
+msgstr ""
+
+#: packages/simple_live_chat/views/dialogs/support/create_ticket.php:30
+msgid "Minor"
+msgstr ""
+
+#: packages/simple_live_chat/views/dialogs/support/create_ticket.php:31
+msgid "Major"
+msgstr ""
+
+#: packages/simple_live_chat/views/dialogs/support/create_ticket.php:32
+msgid "Critical"
+msgstr ""
+
+#: packages/simple_live_chat/views/dialogs/support/create_ticket.php:33
+msgid "Blocker"
+msgstr ""
+
+#: packages/simple_live_chat/views/dialogs/support/create_ticket.php:59
+msgid "E-Mail"
+msgstr ""
+
+#: packages/simple_live_chat/views/dialogs/support/create_ticket.php:64
+msgid "Title"
+msgstr ""
+
+#: packages/simple_live_chat/views/dialogs/support/create_ticket.php:69
+msgid "Content"
+msgstr ""
+
+#: packages/simple_live_chat/views/dialogs/support/create_ticket.php:74
+msgid "Type"
+msgstr ""
+
+#: packages/simple_live_chat/views/dialogs/support/create_ticket.php:79
+msgid "Priority"
+msgstr ""
+
+#: packages/simple_live_chat/views/dialogs/support/create_ticket.php:85
+msgid "Cancel"
+msgstr ""
+
+#: packages/simple_live_chat/views/dialogs/support/create_ticket.php:89
+msgid "Create Ticket"
+msgstr ""
+
+#: packages/simple_live_chat/src/Bitter/SimpleLiveChat/Form/Service/Validation.php:34
+#: packages/simple_live_chat/src/Bitter/SimpleLiveChat/Form/Service/Validation.php:44
+#: packages/simple_live_chat/src/Bitter/SimpleLiveChat/Form/Service/Validation.php:53
+#, php-format
+msgid "Field \"%s\" is invalid"
+msgstr ""
+
+#: packages/simple_live_chat/src/Bitter/SimpleLiveChat/Validator/ArrayValidator.php:42
+#: packages/simple_live_chat/src/Bitter/SimpleLiveChat/Validator/PageValidator.php:23
+msgid "Invalid type supplied to validator."
+msgstr ""
+
+#: packages/simple_live_chat/src/Bitter/SimpleLiveChat/Validator/ArrayValidator.php:46
+msgid "The given value is not valid."
+msgstr ""
+
+#: packages/simple_live_chat/src/Bitter/SimpleLiveChat/Validator/PageValidator.php:29
+msgid "The given page is not valid."
+msgstr ""
+
+#: packages/simple_live_chat/src/Bitter/SimpleLiveChat/Controller/Api.php:88
+msgid "Server started"
+msgstr ""
+
+#: packages/simple_live_chat/src/Bitter/SimpleLiveChat/Controller/Api.php:109
+msgid "Server stopped"
+msgstr ""
+
+#: packages/simple_live_chat/src/Bitter/SimpleLiveChat/Config.php:81
+msgid "Hello how can we help you?"
+msgstr ""
+
+#: packages/simple_live_chat/src/Bitter/SimpleLiveChat/Config.php:93
+msgid "We are sorry but currently all agents are offline."
+msgstr ""
+
+#: packages/simple_live_chat/src/Bitter/SimpleLiveChat/Config.php:398
+#, php-format
+msgid "The server is not running. Click %s to start the server."
+msgstr ""
+
+#: packages/simple_live_chat/src/Bitter/SimpleLiveChat/Config.php:406
+msgid "No messages available."
+msgstr ""
+
+#: packages/simple_live_chat/src/Bitter/SimpleLiveChat/Server.php:59
+msgid "The server is already running or the port is in use by another application."
+msgstr ""
+
+#: packages/simple_live_chat/src/Bitter/SimpleLiveChat/Server.php:83
+msgid "The admin secret is empty."
+msgstr ""
+
+#: packages/simple_live_chat/src/Bitter/SimpleLiveChat/Server.php:87
+msgid "The server is not running."
+msgstr ""
+
+#: packages/simple_live_chat/src/Bitter/SimpleLiveChat/Socket.php:87
+msgid "New message"
+msgstr ""
